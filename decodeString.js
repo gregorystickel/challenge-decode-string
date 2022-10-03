@@ -8,8 +8,7 @@ function decodeString(sequence) {
     arr.push(String.fromCharCode(sequence[i].charCodeAt() + num));    
   }
   result = arr.toString().replaceAll(`,`, ``);
-
   return result;
 }
 
-console.log(decodeString("3ce"));
+console.log(decodeString("2fcjjm"));
